@@ -21,5 +21,10 @@ pipeline {
                 }
             }
         }
+        stage('display message') {
+            steps {
+                echo 'Hello Github'
+            }
+        }
     }
 }
